@@ -62,12 +62,32 @@ venv\Scripts\activate
 # Linux/Mac
 source venv/bin/activate
 ```
+## Instalar empaquetador
+
+```bash
+pip install build wheel
+```
+
+## Empaquetar
+
+Construir el paquete con:
+
+```bash
+python -m build
+```
+
+## Instalación
+
+
+```bash
+pip install dist/conciliacion_bancaria-0.1.0-py3-none-any.whl
+```
 
 ## Uso
 
 1. Ejecutar el script:
 ```bash
-python conciliacion.py
+conciliacion
 ```
 
 2. Seguir las instrucciones en pantalla:
